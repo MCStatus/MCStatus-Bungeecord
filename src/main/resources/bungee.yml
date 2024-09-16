@@ -1,0 +1,14 @@
+name: liveupdate
+version: '1.0'
+main: me.mcstatus.liveupdate.Liveupdate
+description: Allows a live-update of Discord webhooks for your Minecraft server
+author: Alexander Epolite <alexander@epolite.net>
+commands:
+  mcstatus:
+    description: MCStatus commands
+    aliases: [mcstatusreload]
+    permission: mcstatus.reload
+permissions:
+  mcstatus.reload:
+    description: Allows the use of /mcstatus reload
+    default: op
